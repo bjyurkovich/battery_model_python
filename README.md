@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 > If you don't have `virtualenv`, you may need to `pip install virtualenv`.
 
-Then just run the model:
+Then just run the model which runs a simple step profile generated in the file `battery_model.py`:
 
 ```bash
 python battery_model.py
