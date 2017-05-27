@@ -1,0 +1,13 @@
+
+load('./data/CT_2012_03_01_LG_Chem_R3S8_45_deg_CD_CS_1_to_1_test_data.mat');
+
+data = CT_2012_03_01_LG_Chem_R3S8_45_deg_CD_CS_1_to_1_test_data;
+
+dt = 0.1;
+
+% Compute SOC
+soc = zeros(1, length(data(:,1)));
+for i = 1:length(data)
+    soc(i) = 
+end
+
